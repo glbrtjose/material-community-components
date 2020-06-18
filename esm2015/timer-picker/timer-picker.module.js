@@ -1,0 +1,27 @@
+import { __decorate } from "tslib";
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { PortalModule } from '@angular/cdk/portal';
+import { OverlayModule } from '@angular/cdk/overlay';
+import { MatButtonModule } from '@angular/material/button';
+import { MccTimerPickerComponent } from './timer-picker.component';
+import { MccTimerPickerOriginDirective, MccConnectedTimerPickerDirective, } from './timer-picker.directives';
+let MccTimerPickerModule = class MccTimerPickerModule {
+};
+MccTimerPickerModule = __decorate([
+    NgModule({
+        imports: [CommonModule, PortalModule, OverlayModule, MatButtonModule],
+        declarations: [
+            MccTimerPickerComponent,
+            MccTimerPickerOriginDirective,
+            MccConnectedTimerPickerDirective,
+        ],
+        exports: [
+            MccTimerPickerComponent,
+            MccTimerPickerOriginDirective,
+            MccConnectedTimerPickerDirective,
+        ],
+    })
+], MccTimerPickerModule);
+export { MccTimerPickerModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGltZXItcGlja2VyLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL21hdGVyaWFsLWNvbW11bml0eS1jb21wb25lbnRzLyIsInNvdXJjZXMiOlsidGltZXItcGlja2VyL3RpbWVyLXBpY2tlci5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDekMsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxxQkFBcUIsQ0FBQztBQUNuRCxPQUFPLEVBQUUsYUFBYSxFQUFFLE1BQU0sc0JBQXNCLENBQUM7QUFDckQsT0FBTyxFQUFFLGVBQWUsRUFBRSxNQUFNLDBCQUEwQixDQUFDO0FBRTNELE9BQU8sRUFBRSx1QkFBdUIsRUFBRSxNQUFNLDBCQUEwQixDQUFDO0FBQ25FLE9BQU8sRUFDTCw2QkFBNkIsRUFDN0IsZ0NBQWdDLEdBQ2pDLE1BQU0sMkJBQTJCLENBQUM7QUFlbkMsSUFBYSxvQkFBb0IsR0FBakMsTUFBYSxvQkFBb0I7Q0FBSSxDQUFBO0FBQXhCLG9CQUFvQjtJQWJoQyxRQUFRLENBQUM7UUFDUixPQUFPLEVBQUUsQ0FBQyxZQUFZLEVBQUUsWUFBWSxFQUFFLGFBQWEsRUFBRSxlQUFlLENBQUM7UUFDckUsWUFBWSxFQUFFO1lBQ1osdUJBQXVCO1lBQ3ZCLDZCQUE2QjtZQUM3QixnQ0FBZ0M7U0FDakM7UUFDRCxPQUFPLEVBQUU7WUFDUCx1QkFBdUI7WUFDdkIsNkJBQTZCO1lBQzdCLGdDQUFnQztTQUNqQztLQUNGLENBQUM7R0FDVyxvQkFBb0IsQ0FBSTtTQUF4QixvQkFBb0IiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcbmltcG9ydCB7IFBvcnRhbE1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2Nkay9wb3J0YWwnO1xuaW1wb3J0IHsgT3ZlcmxheU1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2Nkay9vdmVybGF5JztcbmltcG9ydCB7IE1hdEJ1dHRvbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL21hdGVyaWFsL2J1dHRvbic7XG5cbmltcG9ydCB7IE1jY1RpbWVyUGlja2VyQ29tcG9uZW50IH0gZnJvbSAnLi90aW1lci1waWNrZXIuY29tcG9uZW50JztcbmltcG9ydCB7XG4gIE1jY1RpbWVyUGlja2VyT3JpZ2luRGlyZWN0aXZlLFxuICBNY2NDb25uZWN0ZWRUaW1lclBpY2tlckRpcmVjdGl2ZSxcbn0gZnJvbSAnLi90aW1lci1waWNrZXIuZGlyZWN0aXZlcyc7XG5cbkBOZ01vZHVsZSh7XG4gIGltcG9ydHM6IFtDb21tb25Nb2R1bGUsIFBvcnRhbE1vZHVsZSwgT3ZlcmxheU1vZHVsZSwgTWF0QnV0dG9uTW9kdWxlXSxcbiAgZGVjbGFyYXRpb25zOiBbXG4gICAgTWNjVGltZXJQaWNrZXJDb21wb25lbnQsXG4gICAgTWNjVGltZXJQaWNrZXJPcmlnaW5EaXJlY3RpdmUsXG4gICAgTWNjQ29ubmVjdGVkVGltZXJQaWNrZXJEaXJlY3RpdmUsXG4gIF0sXG4gIGV4cG9ydHM6IFtcbiAgICBNY2NUaW1lclBpY2tlckNvbXBvbmVudCxcbiAgICBNY2NUaW1lclBpY2tlck9yaWdpbkRpcmVjdGl2ZSxcbiAgICBNY2NDb25uZWN0ZWRUaW1lclBpY2tlckRpcmVjdGl2ZSxcbiAgXSxcbn0pXG5leHBvcnQgY2xhc3MgTWNjVGltZXJQaWNrZXJNb2R1bGUgeyB9XG4iXX0=

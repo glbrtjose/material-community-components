@@ -1,0 +1,93 @@
+Arguments: 
+  /home/temporin/.nvm/versions/node/v10.16.3/bin/node /home/temporin/.yarn/bin/yarn publish dist
+
+PATH: 
+  /home/temporin/.yarn/bin:/home/temporin/.config/yarn/global/node_modules/.bin:/home/temporin/.nvm/versions/node/v10.16.3/bin:/home/temporin/.yarn/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/9/bin:/home/temporin/golang/bin:/home/temporin/.local/bin:/home/temporin/.fzf/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/temporin/.config/yarn/global/node_modules/yarn/lib/cli.js:136724:13)
+      at Interface.emit (events.js:198:13)
+      at Interface._ttyWrite (readline.js:801:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:198:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1075:36)
+      at ReadStream.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+
+npm manifest: 
+  {
+    "$schema": "../../node_modules/ng-packagr/package.schema.json",
+    "name": "material-community-components",
+    "version": "6.0.1",
+    "author": "Tiago Temporin",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tiaguinho/material-community-components/issues"
+    },
+    "homepage": "https://github.com/tiaguinho/material-community-components#readme",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tiaguinho/material-community-components.git"
+    },
+    "keywords": [
+      "color-picker",
+      "timer-picker",
+      "scrollspy",
+      "speed-dial",
+      "color picker",
+      "timer picker",
+      "color",
+      "angular",
+      "material",
+      "timer",
+      "ng",
+      "ng-color-picker",
+      "ngx-color-picker",
+      "ng-timer-picker",
+      "ngx-timer-picker",
+      "material-community-components"
+    ],
+    "peerDependencies": {
+      "@angular/animations": "^9.1.0",
+      "@angular/cdk": "^9.2.0",
+      "@angular/common": "^9.1.0",
+      "@angular/compiler": "^9.1.0",
+      "@angular/core": "^9.1.0",
+      "@angular/forms": "^9.1.0",
+      "@angular/material": "^9.2.0",
+      "@angular/platform-browser": "^9.1.0",
+      "@angular/platform-browser-dynamic": "^9.1.0",
+      "core-js": "^3.6.4",
+      "rxjs": "~6.5.4",
+      "zone.js": "^0.10.3",
+      "tslib": "^1.10.0"
+    },
+    "main": "bundles/material-community-components.umd.js",
+    "module": "fesm5/material-community-components.js",
+    "es2015": "fesm2015/material-community-components.js",
+    "esm5": "esm5/material-community-components.js",
+    "esm2015": "esm2015/material-community-components.js",
+    "fesm5": "fesm5/material-community-components.js",
+    "fesm2015": "fesm2015/material-community-components.js",
+    "typings": "material-community-components.d.ts",
+    "metadata": "material-community-components.metadata.json",
+    "sideEffects": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
